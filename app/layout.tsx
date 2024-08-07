@@ -114,9 +114,6 @@ export default function RootLayout({
             <main className="container mx-auto max-w-7xl pt-16 px-6 flex-grow">
               {children}
             </main>
-            <footer className="w-full flex items-center justify-center py-3">
-              <span>Powered by Your App</span>
-            </footer>
           </div>
         </Providers>
       </body>

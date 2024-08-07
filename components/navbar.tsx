@@ -145,14 +145,7 @@ export const Navbar = () => {
 
 const Navbar = () => {
   return (
-    <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <a href="/" className="text-white text-lg font-bold">Your App</a>
-        <div className="space-x-4">
-          <a href="/about" className="text-gray-300 hover:text-white">about-us</a>
-        </div>
-      </div>
-    </nav>
+    console.log("nav running")
   );
 };
 
